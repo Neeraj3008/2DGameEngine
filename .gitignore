@@ -1,3 +1,25 @@
+# Build files
 build/
-.DS_Store
+cmake-build-*/
+out/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# IDE files
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
